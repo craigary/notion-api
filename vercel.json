@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/v0/databases/[id].js": {
+      "includeFiles": "_files/**"
+    }
+  }
+}
