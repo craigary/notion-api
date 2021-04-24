@@ -122,12 +122,12 @@ Returns `json` data about page content block and page properties (if available)
       "last_edited_time": 1619259240000
     },
     "block": {
-      "9ad2db2f-bcb2-4af3-897f-187882d6404d": {...},
-      "7b260b7d-c905-48c3-bc1e-b5d7a41f20bd": {...},
-      "fec1f7c7-a5d7-4f1e-bbd1-729dc47e5abd": {...},
-      "bca317b2-578e-4db2-9a57-fb6bd4ee0a21": {...},
-      "ae05ee3f-9e5e-4c21-a8a9-6c6120e1d3bc": {...},
-      "57e8e79a-c801-4d7f-a58f-db9b4d1ea306": {...},
+      "9ad2db2f-bcb2-4af3-897f-187882d6404d": {},
+      "7b260b7d-c905-48c3-bc1e-b5d7a41f20bd": {},
+      "fec1f7c7-a5d7-4f1e-bbd1-729dc47e5abd": {},
+      "bca317b2-578e-4db2-9a57-fb6bd4ee0a21": {},
+      "ae05ee3f-9e5e-4c21-a8a9-6c6120e1d3bc": {},
+      "57e8e79a-c801-4d7f-a58f-db9b4d1ea306": {},
     "properties": {
       "Score /5": [
         "⭐️⭐️⭐️⭐️⭐️"
