@@ -11,9 +11,9 @@ module.exports = async (req, res) => {
     const response = await api.getPage(id)
 
     id = idToUuid(id)
-    const collection = Object.values(response.collection)[0].value
+    const collection = Object.values(response.collection)[0]?.value
     const collectionQuery = response.collection_query
-    const schema = collection.schema
+    const schema = collection?.schema
     const block = response.block
 
     const rawMetadata = block[id].value
@@ -46,11 +46,9 @@ module.exports = async (req, res) => {
       res.status(200).send(responseData)
     }
   } catch (error) {
-    res.status(500)
-    const response = error.response || {}
+    res.status(404)
     res.send({
-      message: error.message,
-      response
+      message: error.message
     })
   }
 }
