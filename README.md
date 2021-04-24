@@ -2,7 +2,7 @@
 
 A simple Notion API for reading your Notion page or database data, encapsulated from [`notion-client`](https://github.com/NotionX/react-notion-x/tree/master/packages/notion-client).
 
-You can deploy it on Vercel,
+You can use `notion-api.craigary.net` as the end point, or deploy it on Vercel for your instance.
 
 ---
 
@@ -70,7 +70,7 @@ Returns `json` data about the database.
   }
   ```
 
-      </details>
+  </details>
 
 ### Error Response:
 
@@ -165,8 +165,6 @@ OR
 ### Note
 
 you can render these data with [`react-notion`](https://github.com/splitbee/react-notion) or [`react-notion-x`](https://github.com/NotionX/react-notion-x).
-
----
 
 ## License
 
