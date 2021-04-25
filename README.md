@@ -93,7 +93,7 @@ Returns `json` data about page content block and page properties (if available)
 - **URL:** /api/v0/pages/:id
 - **Method:** `GET`
 
-[`https://notion-api.craigary.net/api/v0/pages/5b2f0b64-3357-480a-97a9-7c7f57eee028`](https://notion-api.craigary.net/api/v0/pages/5b2f0b64-3357-480a-97a9-7c7f57eee028)
+[`https://notion-api.craigary.net/api/v0/pages/5b2f0b643357480a97a97c7f57eee028`](https://notion-api.craigary.net/api/v0/pages/5b2f0b643357480a97a97c7f57eee028)
 
 ## Request
 
