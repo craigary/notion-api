@@ -7,6 +7,8 @@ import getMetadata from '../../../lib/getMetadata'
 module.exports = async (req, res) => {
   try {
     let id = req.query.id.toString()
+    const vId = req.query.id.toString() || null
+    console.log(vId)
     const api = new NotionAPI()
     const response = await api.getPage(id)
 
@@ -26,7 +28,7 @@ module.exports = async (req, res) => {
       const metadata = getMetadata(rawMetadata)
 
       // Construct Data
-      const pageIds = getAllPageIds(collectionQuery)
+      const pageIds = getAllPageIds(collectionQuery, vId)
       const data = []
       for (let i = 0; i < pageIds.length; i++) {
         const id = pageIds[i]
