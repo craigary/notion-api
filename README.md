@@ -10,10 +10,10 @@ You can use `notion-api.craigary.net` as the end point, or deploy it on Vercel f
 
 Returns `json` data about the database.
 
-- **URL:** /api/v0/databases/:id
+- **URL:** /api/v0/databases/:id?v=viewId
 - **Method:** `GET`
 
-[`https://notion-api.craigary.net/api/v0/databases/7b260b7dc90548c3bc1eb5d7a41f20bd`](https://notion-api.craigary.net/api/v0/databases/7b260b7dc90548c3bc1eb5d7a41f20bd)
+[`https://notion-api.craigary.net/api/v0/databases/7b260b7dc90548c3bc1eb5d7a41f20bd?v=f21cc1857c564c4aa94477274be5233f`](https://notion-api.craigary.net/api/v0/databases/7b260b7dc90548c3bc1eb5d7a41f20bd?v=f21cc1857c564c4aa94477274be5233f)
 
 ## Request
 
@@ -22,6 +22,7 @@ Returns `json` data about the database.
 | Param |  Type  | Description | Required |
 | :---: | :----: | :---------: | :------: |
 |  id   | String | Database ID |   Yes    |
+|   v   | String |   View ID   | Optional |
 
 ## Response
 
