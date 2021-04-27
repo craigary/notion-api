@@ -7,8 +7,9 @@ import getMetadata from '../../../lib/getMetadata'
 module.exports = async (req, res) => {
   try {
     let id = req.query.id.toString()
-    const vId = req.query.v.toString() || null
-    const api = new NotionAPI()
+    const vId = req.query.v || null
+    const authToken = req.headers.authorization || null
+    const api = new NotionAPI({ authToken })
     const response = await api.getPage(id)
 
     id = idToUuid(id)
