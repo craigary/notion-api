@@ -11,25 +11,25 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "notion-client": "^4.4.0",
-    "notion-utils": "^4.4.0",
+    "notion-client": "^4.6.0",
+    "notion-utils": "^4.6.0",
     "vue": "^3.0.5"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.4.0",
-    "@vitejs/plugin-vue": "^1.2.1",
+    "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.5",
     "autoprefixer": "^10.2.5",
-    "eslint": "^7.24.0",
-    "eslint-config-prettier": "^8.2.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-promise": "^5.1.0",
     "marked": "^2.0.3",
-    "postcss": "^8.2.12",
-    "prettier": "^2.2.1",
+    "postcss": "^8.2.15",
+    "prettier": "^2.3.0",
     "tailwindcss": "^2.1.2",
-    "vite": "^2.1.5"
+    "vite": "^2.3.2"
   }
 }
