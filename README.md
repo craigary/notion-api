@@ -1,4 +1,6 @@
-# Notion API
+# 📦 Notion API
+
+## This project is no longer maintained, please use the [official API](https://developers.notion.so/) instead.
 
 A simple Notion API for reading your Notion page or database data, encapsulated from [`notion-client`](https://github.com/NotionX/react-notion-x/tree/master/packages/notion-client).
 
